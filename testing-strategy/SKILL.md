@@ -83,6 +83,8 @@ The pyramid exists because of economics: unit tests are fast, cheap, and precise
 | SPA with external API | 30% | 15% | 40% | 15% |
 | Static site with forms | 20% | 10% | 50% | 20% |
 
+This adaptive model reconciles the classic testing pyramid with the Testing Trophy (Kent C. Dodds), which argues that integration tests deliver the most confidence per dollar invested. Both models are valid — the ratios above shift based on where your project's complexity lives, not on dogma. An API-heavy backend leans toward the pyramid; a frontend-heavy SPA leans toward the trophy.
+
 These are guidelines, not rules. The right ratio depends on where the complexity lives.
 
 ## Decision Framework
