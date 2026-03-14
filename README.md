@@ -24,13 +24,24 @@ It works with **any web stack and testing framework**. The strategy evaluates un
 #### Using the Skills CLI (recommended)
 
 ```bash
-# List available skills
+# Interactive install — choose which skills and agent
+npx skills add magallon/testing-toolkit
+
+# List available skills before installing
 npx skills add magallon/testing-toolkit --list
+```
 
-# Install the strategy skill
-npx skills add magallon/testing-toolkit --skill testing-strategy
+#### Install to a specific agent
 
-# Install all available skills
+```bash
+# Install to a specific agent
+npx skills add magallon/testing-toolkit --skill testing-strategy -a claude-code
+```
+
+#### Install all skills to all agents
+
+```bash
+# Install everything to every detected agent (no prompts)
 npx skills add magallon/testing-toolkit --all
 ```
 
