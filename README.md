@@ -13,7 +13,7 @@ It works with **any web stack and testing framework**. The strategy evaluates un
 | Skill | Purpose | Status |
 |---|---|---|
 | **testing-strategy** | Decides what to test, which test type to use, and how to prioritize coverage. Generates unit, integration, and component tests on request. | ✅ Available |
-| *e2e-testing* | End-to-end test generation with browser automation patterns (Playwright, Cypress) | 🔜 Planned |
+| **e2e-testing** | Generates end-to-end tests for critical user flows with Page Object Model, wait patterns, flaky test diagnosis, and CI/CD integration. Stack-agnostic. | ✅ Available |
 
 ## Quick Start
 
@@ -78,7 +78,6 @@ Works with any web project and testing framework:
 - **Any other stack** with a testing framework
 
 ## Project Structure
-
 ```
 testing-toolkit/
 ├── README.md
@@ -86,12 +85,20 @@ testing-toolkit/
 ├── CHANGELOG.md
 ├── CONTRIBUTING.md
 │
-└── testing-strategy/
+├── testing-strategy/
+│   ├── SKILL.md
+│   └── references/
+│       ├── test-type-guide.md
+│       ├── coverage-strategy.md
+│       └── anti-patterns.md
+│
+└── e2e-testing/
     ├── SKILL.md
     └── references/
-        ├── test-type-guide.md
-        ├── coverage-strategy.md
-        └── anti-patterns.md
+        ├── framework-guide.md
+        ├── page-object-patterns.md
+        ├── patterns-and-anti-patterns.md
+        └── ci-pipeline-templates.md
 ```
 
 ## Contributing
