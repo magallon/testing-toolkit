@@ -12,10 +12,8 @@ It works with **any web stack and testing framework**. The strategy evaluates un
 
 | Skill | Purpose | Status |
 |---|---|---|
-| **testing-strategy** | Decides what to test, which test type to use, and how to prioritize coverage | ✅ Available |
-| *unit-testing* | Generates unit tests following the strategy's recommendations | 🔜 Planned |
-| *integration-testing* | Generates integration tests for APIs, data access, and module interactions | 🔜 Planned |
-| *e2e-testing* | Generates end-to-end tests for critical user flows | 🔜 Planned |
+| **testing-strategy** | Decides what to test, which test type to use, and how to prioritize coverage. Generates unit, integration, and component tests on request. | ✅ Available |
+| *e2e-testing* | End-to-end test generation with browser automation patterns (Playwright, Cypress) | 🔜 Planned |
 
 ## Quick Start
 
